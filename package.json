@@ -35,9 +35,16 @@
   "engines": {},
   "devDependencies": {
     "brisky-is-obj": "^1.0.1",
+    "browserify": "^13.1.0",
+    "bubleify": "^0.5.1",
     "istanbul": "^0.4.4",
     "standard": "^7.1.2",
     "tape": "^4.6.0",
     "vigour-base": "^3.6.1"
+  },
+  "browserify": {
+    "transform": [
+      "bubleify"
+    ]
   }
 }
