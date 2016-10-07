@@ -1,6 +1,6 @@
 {
   "name": "brisky-is-plain-obj",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Checks whether an object is a plain object (excludes streams, buffers, vigour-base objects, and null)",
   "main": "lib/index.js",
   "scripts": {
