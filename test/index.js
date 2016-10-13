@@ -1,11 +1,11 @@
 'use strict'
 
-var test = require('tape')
-var Base = require('vigour-base')
-var isPlainObj = require('../')
-var isObj = require('brisky-is-obj')
+const test = require('tape')
+const Base = require('vigour-base')
+const isPlainObj = require('../')
+const isObj = require('brisky-is-obj')
 
-var testCases = [
+const testCases = [
   [{}, true],
   [{ a: 'a' }, true],
   [new Base({}), false],

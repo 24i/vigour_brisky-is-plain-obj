@@ -20,7 +20,7 @@ Checks whether an object is a plain object (excludes streams, buffers, vigour-ba
 <!-- VDOC END -->
 
 ```javascript
-var isPlain = require('brisky-is-plain-obj')
+const isPlain = require('brisky-is-plain-obj')
 isPlain({}) // true
 isPlain(new Base({})) // false
 ```
